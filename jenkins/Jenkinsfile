@@ -21,8 +21,8 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh './jenkins/scripts/deliver.sh'
-                #!/usr/bin/env bash
+                sh 'bash ./jenkins/scripts/deliver.sh'
+         
                 echo "The following command runs your application..."
 
             }
